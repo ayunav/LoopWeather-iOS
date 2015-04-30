@@ -14,6 +14,14 @@
 		AB17AF8E1AF2AC5000F7268C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB17AF8D1AF2AC5000F7268C /* Images.xcassets */; };
 		AB17AF911AF2AC5000F7268C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB17AF8F1AF2AC5000F7268C /* LaunchScreen.xib */; };
 		AB17AF9D1AF2AC5000F7268C /* Loop_WeatherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17AF9C1AF2AC5000F7268C /* Loop_WeatherTests.swift */; };
+		AB17AFB01AF2AD5700F7268C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17AFAF1AF2AD5700F7268C /* InterfaceController.swift */; };
+		AB17AFB21AF2AD5700F7268C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17AFB11AF2AD5700F7268C /* NotificationController.swift */; };
+		AB17AFB41AF2AD5700F7268C /* GlanceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB17AFB31AF2AD5700F7268C /* GlanceController.swift */; };
+		AB17AFB61AF2AD5700F7268C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB17AFB51AF2AD5700F7268C /* Images.xcassets */; };
+		AB17AFBA1AF2AD5700F7268C /* Loop Weather WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = AB17AFB91AF2AD5700F7268C /* Loop Weather WatchKit App.app */; };
+		AB17AFC21AF2AD5700F7268C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB17AFC01AF2AD5700F7268C /* Interface.storyboard */; };
+		AB17AFC41AF2AD5700F7268C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB17AFC31AF2AD5700F7268C /* Images.xcassets */; };
+		AB17AFC71AF2AD5700F7268C /* Loop Weather WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = AB17AFAA1AF2AD5700F7268C /* Loop Weather WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +32,35 @@
 			remoteGlobalIDString = AB17AF7D1AF2AC5000F7268C;
 			remoteInfo = "Loop Weather";
 		};
+		AB17AFBB1AF2AD5700F7268C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB17AF761AF2AC5000F7268C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB17AFB81AF2AD5700F7268C;
+			remoteInfo = "Loop Weather WatchKit App";
+		};
+		AB17AFC51AF2AD5700F7268C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB17AF761AF2AC5000F7268C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB17AFA91AF2AD5700F7268C;
+			remoteInfo = "Loop Weather WatchKit Extension";
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AB17AFCE1AF2AD5700F7268C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				AB17AFC71AF2AD5700F7268C /* Loop Weather WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AB17AF7E1AF2AC5000F7268C /* Loop Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loop Weather.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -38,6 +74,17 @@
 		AB17AF961AF2AC5000F7268C /* Loop WeatherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Loop WeatherTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB17AF9B1AF2AC5000F7268C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB17AF9C1AF2AC5000F7268C /* Loop_WeatherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loop_WeatherTests.swift; sourceTree = "<group>"; };
+		AB17AFAA1AF2AD5700F7268C /* Loop Weather WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Loop Weather WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB17AFAD1AF2AD5700F7268C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB17AFAE1AF2AD5700F7268C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		AB17AFAF1AF2AD5700F7268C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		AB17AFB11AF2AD5700F7268C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		AB17AFB31AF2AD5700F7268C /* GlanceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlanceController.swift; sourceTree = "<group>"; };
+		AB17AFB51AF2AD5700F7268C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB17AFB91AF2AD5700F7268C /* Loop Weather WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Loop Weather WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB17AFBF1AF2AD5700F7268C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB17AFC11AF2AD5700F7268C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		AB17AFC31AF2AD5700F7268C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +102,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB17AFA71AF2AD5700F7268C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -63,6 +117,8 @@
 			children = (
 				AB17AF801AF2AC5000F7268C /* Loop Weather */,
 				AB17AF991AF2AC5000F7268C /* Loop WeatherTests */,
+				AB17AFAB1AF2AD5700F7268C /* Loop Weather WatchKit Extension */,
+				AB17AFBD1AF2AD5700F7268C /* Loop Weather WatchKit App */,
 				AB17AF7F1AF2AC5000F7268C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -72,6 +128,8 @@
 			children = (
 				AB17AF7E1AF2AC5000F7268C /* Loop Weather.app */,
 				AB17AF961AF2AC5000F7268C /* Loop WeatherTests.xctest */,
+				AB17AFAA1AF2AD5700F7268C /* Loop Weather WatchKit Extension.appex */,
+				AB17AFB91AF2AD5700F7268C /* Loop Weather WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,6 +173,45 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		AB17AFAB1AF2AD5700F7268C /* Loop Weather WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB17AFAF1AF2AD5700F7268C /* InterfaceController.swift */,
+				AB17AFB11AF2AD5700F7268C /* NotificationController.swift */,
+				AB17AFB31AF2AD5700F7268C /* GlanceController.swift */,
+				AB17AFB51AF2AD5700F7268C /* Images.xcassets */,
+				AB17AFAC1AF2AD5700F7268C /* Supporting Files */,
+			);
+			path = "Loop Weather WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		AB17AFAC1AF2AD5700F7268C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB17AFAD1AF2AD5700F7268C /* Info.plist */,
+				AB17AFAE1AF2AD5700F7268C /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB17AFBD1AF2AD5700F7268C /* Loop Weather WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				AB17AFC01AF2AD5700F7268C /* Interface.storyboard */,
+				AB17AFC31AF2AD5700F7268C /* Images.xcassets */,
+				AB17AFBE1AF2AD5700F7268C /* Supporting Files */,
+			);
+			path = "Loop Weather WatchKit App";
+			sourceTree = "<group>";
+		};
+		AB17AFBE1AF2AD5700F7268C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB17AFBF1AF2AD5700F7268C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -125,10 +222,12 @@
 				AB17AF7A1AF2AC5000F7268C /* Sources */,
 				AB17AF7B1AF2AC5000F7268C /* Frameworks */,
 				AB17AF7C1AF2AC5000F7268C /* Resources */,
+				AB17AFCE1AF2AD5700F7268C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				AB17AFC61AF2AD5700F7268C /* PBXTargetDependency */,
 			);
 			name = "Loop Weather";
 			productName = "Loop Weather";
@@ -153,6 +252,39 @@
 			productReference = AB17AF961AF2AC5000F7268C /* Loop WeatherTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		AB17AFA91AF2AD5700F7268C /* Loop Weather WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB17AFCD1AF2AD5700F7268C /* Build configuration list for PBXNativeTarget "Loop Weather WatchKit Extension" */;
+			buildPhases = (
+				AB17AFA61AF2AD5700F7268C /* Sources */,
+				AB17AFA71AF2AD5700F7268C /* Frameworks */,
+				AB17AFA81AF2AD5700F7268C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB17AFBC1AF2AD5700F7268C /* PBXTargetDependency */,
+			);
+			name = "Loop Weather WatchKit Extension";
+			productName = "Loop Weather WatchKit Extension";
+			productReference = AB17AFAA1AF2AD5700F7268C /* Loop Weather WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		AB17AFB81AF2AD5700F7268C /* Loop Weather WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB17AFCC1AF2AD5700F7268C /* Build configuration list for PBXNativeTarget "Loop Weather WatchKit App" */;
+			buildPhases = (
+				AB17AFB71AF2AD5700F7268C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Loop Weather WatchKit App";
+			productName = "Loop Weather WatchKit App";
+			productReference = AB17AFB91AF2AD5700F7268C /* Loop Weather WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -168,6 +300,13 @@
 					AB17AF951AF2AC5000F7268C = {
 						CreatedOnToolsVersion = 6.4;
 						TestTargetID = AB17AF7D1AF2AC5000F7268C;
+					};
+					AB17AFA91AF2AD5700F7268C = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					AB17AFB81AF2AD5700F7268C = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 6LDW4Q5KWU;
 					};
 				};
 			};
@@ -186,6 +325,8 @@
 			targets = (
 				AB17AF7D1AF2AC5000F7268C /* Loop Weather */,
 				AB17AF951AF2AC5000F7268C /* Loop WeatherTests */,
+				AB17AFA91AF2AD5700F7268C /* Loop Weather WatchKit Extension */,
+				AB17AFB81AF2AD5700F7268C /* Loop Weather WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -205,6 +346,24 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB17AFA81AF2AD5700F7268C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB17AFBA1AF2AD5700F7268C /* Loop Weather WatchKit App.app in Resources */,
+				AB17AFB61AF2AD5700F7268C /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB17AFB71AF2AD5700F7268C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB17AFC21AF2AD5700F7268C /* Interface.storyboard in Resources */,
+				AB17AFC41AF2AD5700F7268C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +388,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		AB17AFA61AF2AD5700F7268C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB17AFB21AF2AD5700F7268C /* NotificationController.swift in Sources */,
+				AB17AFB01AF2AD5700F7268C /* InterfaceController.swift in Sources */,
+				AB17AFB41AF2AD5700F7268C /* GlanceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -236,6 +405,16 @@
 			isa = PBXTargetDependency;
 			target = AB17AF7D1AF2AC5000F7268C /* Loop Weather */;
 			targetProxy = AB17AF971AF2AC5000F7268C /* PBXContainerItemProxy */;
+		};
+		AB17AFBC1AF2AD5700F7268C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB17AFB81AF2AD5700F7268C /* Loop Weather WatchKit App */;
+			targetProxy = AB17AFBB1AF2AD5700F7268C /* PBXContainerItemProxy */;
+		};
+		AB17AFC61AF2AD5700F7268C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB17AFA91AF2AD5700F7268C /* Loop Weather WatchKit Extension */;
+			targetProxy = AB17AFC51AF2AD5700F7268C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -254,6 +433,14 @@
 				AB17AF901AF2AC5000F7268C /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		AB17AFC01AF2AD5700F7268C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB17AFC11AF2AD5700F7268C /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -394,6 +581,64 @@
 			};
 			name = Release;
 		};
+		AB17AFC81AF2AD5700F7268C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Loop Weather WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		AB17AFC91AF2AD5700F7268C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Loop Weather WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AB17AFCA1AF2AD5700F7268C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Loop_Weather_WatchKit_Extension;
+				INFOPLIST_FILE = "Loop Weather WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		AB17AFCB1AF2AD5700F7268C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IBSC_MODULE = Loop_Weather_WatchKit_Extension;
+				INFOPLIST_FILE = "Loop Weather WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -413,12 +658,30 @@
 				AB17AFA21AF2AC5000F7268C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AB17AFA31AF2AC5000F7268C /* Build configuration list for PBXNativeTarget "Loop WeatherTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AB17AFA41AF2AC5000F7268C /* Debug */,
 				AB17AFA51AF2AC5000F7268C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB17AFCC1AF2AD5700F7268C /* Build configuration list for PBXNativeTarget "Loop Weather WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB17AFCA1AF2AD5700F7268C /* Debug */,
+				AB17AFCB1AF2AD5700F7268C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB17AFCD1AF2AD5700F7268C /* Build configuration list for PBXNativeTarget "Loop Weather WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB17AFC81AF2AD5700F7268C /* Debug */,
+				AB17AFC91AF2AD5700F7268C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
